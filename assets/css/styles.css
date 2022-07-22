@@ -64,6 +64,7 @@
         --h2-font-size: 1.5rem;
         --h3-font-size: 1.25rem;
         --normal-font-size: 1rem;
+        --normal-font-size-icon: 1.4rem;
         --small-font-size: .875rem;
         --smaller-font-size: .813rem;
     }
@@ -933,7 +934,7 @@ img{
 /*========== SCROLL UP ==========*/
 .scrollup{
     position: fixed;
-    right: 1rem;
+    right: 3rem;
     bottom: 5rem;
     background-color: var(--first-color);
     opacity: .8;
@@ -941,6 +942,8 @@ img{
     border-radius: .4rem;
     z-index: var(--z-tooltip);
     transition: .4s;
+    color: white;
+    font-size: var(--normal-font-size-icon);
 }
 
 .scrollup:hover{
@@ -948,7 +951,7 @@ img{
 }
 
 .scrollup__icon{
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     color: #FFF;
 }
 /* Show scroll */
