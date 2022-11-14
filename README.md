@@ -20,4 +20,5 @@
 
 
 
-`credits: bedimcode`
+`designed by: bedimcode`<br>
+`built by: mateusloubach`
