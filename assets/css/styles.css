@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 222; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 000; /*Purple 250 - Green 142 - Blue 230 - Pink 340 - Red 000*/
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -409,10 +409,8 @@ img{
 
 /*==================== ABOUT ====================*/
 .about__img{
-    width: 200px;
-    border: 1px groove;
     border-color: var(--first-color);
-    border-radius: 0.3rem 7rem;
+    border-radius: 11rem;
     justify-self: center;
     align-self: center;
 }
